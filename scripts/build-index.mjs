@@ -7,6 +7,7 @@ const dir = "poems";
 const entries = [];
 let failed = false;
 const fail = (msg) => { console.error(msg); failed = true; };
+const clip = (s, n) => (s.length > n ? s.slice(0, n).replace(/\s+\S*$/, "") + "…" : s);
 
 for (const file of (await readdir(dir)).filter((f) => f.endsWith(".md"))) {
   const slug = file.replace(/\.md$/, "");
@@ -20,8 +21,12 @@ for (const file of (await readdir(dir)).filter((f) => f.endsWith(".md"))) {
   if (!data.title) { fail(`${file}: missing title`); continue; }
   if (data.draft === true) continue;
 
-  const text = match[2].trim().replace(/\s+/g, " ");
-  const excerpt = text.length > 260 ? text.slice(0, 260).replace(/\s+\S*$/, "") + "…" : text;
+  const body = match[2].trim();
+  const excerpt = clip(body.replace(/\s+/g, " "), 260);
+
+  // Pull quote for the featured spot: `quote:` in frontmatter, or the first lines of the poem
+  const firstLines = body.split(/\n[ \t]*\n/)[0].split("\n").map((l) => l.trim()).filter(Boolean).slice(0, 3).join(" ");
+  const quote = data.quote ? String(data.quote).trim() : clip(firstLines, 140);
 
   entries.push({
     slug,
@@ -29,6 +34,8 @@ for (const file of (await readdir(dir)).filter((f) => f.endsWith(".md"))) {
     date: data.date ? String(data.date) : "",
     tags: Array.isArray(data.tags) ? data.tags.map(String) : [],
     excerpt,
+    featured: data.featured === true,
+    quote,
   });
 }
 
