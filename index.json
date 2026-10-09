@@ -6,7 +6,9 @@
     "tags": [
       "poem"
     ],
-    "excerpt": "The test 1 poem exists Just because it can' And just because it will"
+    "excerpt": "The test 1 poem exists Just because it can' And just because it will",
+    "featured": true,
+    "quote": "Optional line or two to show large. Defaults to the opening lines."
   },
   {
     "slug": "test-two",
@@ -15,6 +17,8 @@
     "tags": [
       "poem"
     ],
-    "excerpt": "The test 2 poem exists Just because it can' And just because it will This line test an indent"
+    "excerpt": "The test 2 poem exists Just because it can' And just because it will This line test an indent",
+    "featured": false,
+    "quote": "The test 2 poem exists Just because it can' And just because it will"
   }
 ]
