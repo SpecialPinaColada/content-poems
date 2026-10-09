@@ -1,7 +1,7 @@
 ---
 title: All Men
 date: 2026-03-31
-tags: [social justice, understanding, hatred]
+tags: [social justice]
 ---
 So you say not all men?
 Tell me which ones to avoid

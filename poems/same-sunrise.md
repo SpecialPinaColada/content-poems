@@ -1,7 +1,7 @@
 ---
 title: Same Sunrise
 date: 2026-10-08
-tags: [love, sadness, grief, longing]
+tags: [love, grief]
 featured: true
 quote: |
   We, two people who once knew everything,
@@ -41,5 +41,5 @@ love me again in memory, where love can never fade.
 
 We, two people who once knew everything,
 every hope, every fear, every secret,
-will slowly drift apart,
+will now slowly drift apart,
 still living beneath the same sunrise. 
