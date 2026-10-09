@@ -22,7 +22,8 @@ for (const file of (await readdir(dir)).filter((f) => f.endsWith(".md"))) {
   if (data.draft === true) continue;
 
   const body = match[2].trim();
-  const excerpt = clip(body.replace(/\s+/g, " "), 260);
+  const tidy = (s) => s.replace(/[ \t]+/g, " ").replace(/ ?\n ?/g, "\n").replace(/\n{3,}/g, "\n\n").trim();
+  const excerpt = clip(tidy(body), 260);
 
   // Pull quote for the featured spot: `quote:` in frontmatter, or the first lines of the poem
   const firstLines = body.split(/\n[ \t]*\n/)[0].split("\n").map((l) => l.trim()).filter(Boolean).slice(0, 3).join(" ");
