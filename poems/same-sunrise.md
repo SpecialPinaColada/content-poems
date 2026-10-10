@@ -9,7 +9,6 @@ quote: |
   will slowly drift apart,
   still living beneath the same sunrise.
 ---
-
 Peace and pain.
 What difference does it make now,
 knowing I will never have you again,
