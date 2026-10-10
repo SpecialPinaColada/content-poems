@@ -1,5 +1,5 @@
 ---
-title: "Thank You, Goodbye"
+title: Thank You, Goodbye
 date: 2026-10-10
 tags: [love, breakup]
 ---
