@@ -8,8 +8,8 @@ quote: |
   every hope, every fear, every secret,
   will slowly drift apart,
   still living beneath the same sunrise.
-credit: 'Includes lines from "Song Title" by Lin-Manuel Miranda, from Hamilton'
 ---
+
 Peace and pain.
 What difference does it make now,
 knowing I will never have you again,
