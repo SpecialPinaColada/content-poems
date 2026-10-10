@@ -1,11 +1,23 @@
 [
   {
+    "slug": "thank-you-goodbye",
+    "title": "Same Sunrise",
+    "date": "2026-10-10",
+    "tags": [
+      "love",
+      "breakup"
+    ],
+    "excerpt": "\"Thank You\" is what I wish I could say to you.\nOur hours taught me more than my weeks ever could.\nYou taught me how to love, and how to feel loved.\nAnd so…",
+    "featured": false,
+    "quote": "\"Thank You\" is what I wish I could say to you. Our hours taught me more than my weeks ever could. You taught me how to love, and how to…"
+  },
+  {
     "slug": "same-sunrise",
     "title": "Same Sunrise",
     "date": "2026-10-08",
     "tags": [
       "love",
-      "grief"
+      "breakup"
     ],
     "excerpt": "Peace and pain.\nWhat difference does it make now,\nknowing I will never have you again,\nwhile you will always have a piece of me?\n\nThat is the worst part of…",
     "featured": true,
