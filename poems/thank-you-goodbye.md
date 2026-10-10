@@ -1,5 +1,5 @@
 ---
-title: Same Sunrise
+title: "Thank You, Goodbye"
 date: 2026-10-10
 tags: [love, breakup]
 ---
