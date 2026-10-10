@@ -1,7 +1,7 @@
 ---
 title: Same Sunrise
 date: 2026-10-08
-tags: [love, grief]
+tags: [love, breakup]
 featured: true
 quote: |
   We, two people who once knew everything,
