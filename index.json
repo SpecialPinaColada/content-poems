@@ -1,5 +1,17 @@
 [
   {
+    "slug": "somebody-that-i-used-to-know",
+    "title": "Somebody That I Used To Know",
+    "date": "2026-10-13",
+    "tags": [
+      "love",
+      "breakup"
+    ],
+    "excerpt": "Somebody that I used to know,\nI guess that's all you are now.\nAnd yet your number stays in my phone.\nAnd your face stays burned into my mind.\nNotice how the…",
+    "featured": false,
+    "quote": "Somebody that I used to know, I guess that's all you are now. And yet your number stays in my phone."
+  },
+  {
     "slug": "thank-you-goodbye",
     "title": "Thank You, Goodbye",
     "date": "2026-10-10",
