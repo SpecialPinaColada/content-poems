@@ -1,5 +1,17 @@
 [
   {
+    "slug": "sixth-life",
+    "title": "Sixth Life",
+    "date": "2026-11-12",
+    "tags": [
+      "self exploration",
+      "love"
+    ],
+    "excerpt": "In my first life I would work hard.\nBecome the person every parent wants.\nChasing success and money,\nEven at the expense of everything else\n\nMy second I would…",
+    "featured": true,
+    "quote": "In the final one, the sixth life,\nEven with the perfect blend of them all,\nI would sit at the edge of a dock, hollow.\nMissing someone I do not yet know."
+  },
+  {
     "slug": "somebody-that-i-used-to-know",
     "title": "Somebody That I Used To Know",
     "date": "2026-10-13",
@@ -32,8 +44,8 @@
       "breakup"
     ],
     "excerpt": "Peace and pain.\nWhat difference does it make now,\nknowing I will never have you again,\nwhile you will always have a piece of me?\n\nThat is the worst part of…",
-    "featured": true,
-    "quote": "We, two people who once knew everything,\nevery hope, every fear, every secret,\nwill slowly drift apart,\nstill living beneath the same sunrise."
+    "featured": false,
+    "quote": "Peace and pain. What difference does it make now, knowing I will never have you again,"
   },
   {
     "slug": "all-men",
