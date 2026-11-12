@@ -2,12 +2,6 @@
 title: Same Sunrise
 date: 2026-10-06
 tags: [love, breakup]
-featured: true
-quote: |
-  We, two people who once knew everything,
-  every hope, every fear, every secret,
-  will slowly drift apart,
-  still living beneath the same sunrise.
 ---
 Peace and pain.
 What difference does it make now,
